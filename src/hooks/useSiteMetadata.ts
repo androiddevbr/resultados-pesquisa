@@ -9,6 +9,8 @@ export interface SiteMetadata {
   }
   social: {
     github: string
+    twitter: string
+    slack: string
   }
 }
 
@@ -25,6 +27,8 @@ export default (): SiteMetadata => {
           }
           social {
             github
+            twitter
+            slack
           }
         }
       }

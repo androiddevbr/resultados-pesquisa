@@ -1,14 +1,17 @@
 /* eslint-disable @typescript-eslint/camelcase */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Typescript blog Starter`,
-    description: `A simple blog starter using Typescript in front & back side with eslint & prettier.`,
+    title: `Android Dev BR | Resultados da pesquisa de mercado`,
+    description: `
+    Com o intuito de entender melhor a nossa comunidade e melhorar nossas iniciativas, desenvolvemos esta pesquisa para  avaliar o cenário dos desenvolvedores Android brasileiros no mercado de trabalho (salário, beneficios, regime de contratação etc). `,
     author: {
-      name: 'Julien CARON',
-      content: 'I like build some things using Javascript',
+      name: 'Android Dev BR',
+      content: 'Uma comunidade para pessoas desenvolvedoras de Android de todo o Brasil.',
     },
     social: {
-      github: 'https://github.com/Junscuzzy',
+      github: 'https://github.com/androiddevbr',
+      twitter: 'https://twitter.com/AndroidDevBrOrg',
+      slack: 'http://slack.androiddevbr.org/'
     },
   },
   plugins: [
@@ -36,17 +39,17 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `adbr-survey-results`,
+        short_name: `adbr-survey`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#4caf4f`,
+        theme_color: `#4caf4f`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }

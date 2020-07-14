@@ -1,12 +1,14 @@
 import { Link as GatsbyLink } from 'gatsby'
 import React, { FC } from 'react'
-import { AppBar, Toolbar, Typography, Link, Button } from '@material-ui/core'
+import { AppBar, Toolbar, Button, Avatar, ButtonBase } from '@material-ui/core'
 import { makeStyles } from '@material-ui/styles'
+import logo from './../images/logo.png'
 
 const useStyles = makeStyles({
-  toolbar: {},
-  title: {
-    flexGrow: 1,
+  toolbar: {
+    backgroundColor: '#424242',
+    justifyContent: 'space-between',
+    color: '#fff'
   },
   link: {
     textDecoration: 'none',
@@ -25,16 +27,13 @@ const Header: FC<HeaderProps> = ({ siteTitle = '', onToggleTheme }) => {
   return (
     <AppBar component="header" position="static">
       <Toolbar className={classes.toolbar}>
-        <Typography variant="h6" className={classes.title}>
-          <Link
-            to="/"
-            component={GatsbyLink}
-            color="inherit"
-            className={classes.link}
-          >
-            {siteTitle}
-          </Link>
-        </Typography>
+        <ButtonBase
+          to="/"
+          component={GatsbyLink}
+          className={classes.link}
+        >
+          <Avatar alt="Android Dev BR" src={logo} />
+        </ButtonBase>
         <Button color="inherit" onClick={onToggleTheme}>
           Toggle Theme
         </Button>

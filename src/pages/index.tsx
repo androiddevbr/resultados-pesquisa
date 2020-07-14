@@ -7,6 +7,8 @@ import Layout from '../layout'
 import SEO from '../components/seo'
 import Hero from '../components/hero'
 
+import office from '../images/office.png'
+
 const useStyles = makeStyles((theme: Theme) => ({
   heroButtons: {
     marginTop: theme.spacing(4),
@@ -22,6 +24,7 @@ const IndexPage: FC = () => {
         title="Hi people"
         description="Welcome to your new Gatsby site. Now go build something great with
           Typescript and Material-ui."
+        icon={office}
       >
         <div className={classes.heroButtons}>
           <Grid container spacing={2} justify="center">

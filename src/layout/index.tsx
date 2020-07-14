@@ -44,8 +44,8 @@ const Layout: FC<{ container?: boolean }> = ({
             {children}
           </Container>
         ) : (
-          <main>{children}</main>
-        )}
+            <main>{children}</main>
+          )}
         <Footer />
       </div>
     </ThemeProvider>

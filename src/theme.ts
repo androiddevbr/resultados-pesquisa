@@ -11,10 +11,10 @@ const makeTheme = (variant: ThemeOptions): Theme => {
   const common = {
     palette: {
       primary: {
-        main: '#542c85',
+        main: '#4caf4f',
       },
       secondary: {
-        main: '#19857b',
+        main: '#002477',
       },
       error: {
         main: red.A400,
