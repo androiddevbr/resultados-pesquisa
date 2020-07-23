@@ -4944,6 +4944,11 @@ follow-redirects@^1.0.0:
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.12.1.tgz#de54a6205311b93d60398ebc01cf7015682312b6"
   integrity sha512-tmRv0AVuR7ZyouUHLeNSiO6pqulF7dYa3s19c6t+wz9LD69/uSzdMxJ2S91nTI9U3rt/IldxpzMOFejp6f0hjg==
 
+fontsource-roboto@^2.1.4:
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/fontsource-roboto/-/fontsource-roboto-2.1.4.tgz#1716342fea11380e5d4adf7e90cc0ccd7b6e6856"
+  integrity sha512-2NP2idRiX19pjwdNV0NvPaiDziIAFYg6IogPuQUJwVYq8BYqPDWRAGX7maQQFzvEvAUt1u9xaRGVwE7SIeCKDA==
+
 for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"

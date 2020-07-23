@@ -1,0 +1,180 @@
+[
+    {
+        "title": "Com qual gênero você se identifica?",
+        "description": "Existe uma diferença muito grande entre pessoas que se identificam do gênero masculino e feminino. Poderia ser um reflexo do mercado de tecnologia, que é majoritariamente masculino?",
+        "data": [
+            {
+                "label": "Masculino",
+                "value": 93.4
+            },
+            {
+                "label": "Feminino",
+                "value": 6.6
+            }
+        ]
+    },
+    {
+        "title": "Qual o seu grau de escolaridade?",
+        "description": "Mais de 70% das pessoas reponderam ter pelo menos ensino superior incompleto, mostrando uma certa \"elitização\" da área.",
+        "data": [
+            {
+                "label": "Ensino superior completo",
+                "value": 54.5
+            },
+            {
+                "label": "Ensino superior incompleto",
+                "value": 20.9
+            },
+            {
+                "label": "Pós-graduação",
+                "value": 18.9
+            },
+            {
+                "label": "Mestrado",
+                "value": 4.7
+            },
+            {
+                "label": "Ensino médio completo",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "title": "Em qual faixa etária se encontra?",
+        "description": "É um mercado muito jovem com a maioria das pessoas abaixo de 30 anos, e mais de 95% tem entre 21 e 50 anos.",
+        "data": [
+            {
+                "label": "21 a 29 anos",
+                "value": 62.8
+            },
+            {
+                "label": "30 a 39 anos",
+                "value": 33.6
+            },
+            {
+                "label": "40 a 49 anos",
+                "value": 2
+            },
+            {
+                "label": "18 a 20 anos",
+                "value": 1.7
+            }
+        ]
+    },
+    {
+        "title": "Você se identifica em algum dos grupos abaixo?",
+        "description": "",
+        "data": [
+            {
+                "label": "Negros",
+                "value": 14
+            },
+            {
+                "label": "LGBTQI+",
+                "value": 5.6
+            },
+            {
+                "label": "Indígena",
+                "value": 1.3
+            },
+            {
+                "label": "PCD",
+                "value": 0.7
+            }
+        ]
+    },
+    {
+        "title": "Residência no Brasil",
+        "description": "",
+        "data": [
+            {
+                "label": "São Paulo",
+                "value": 39.6
+            },
+            {
+                "label": "Minas Gerais",
+                "value": 13.5
+            },
+            {
+                "label": "Santa Catarina",
+                "value": 9.3
+            },
+            {
+                "label": "Rio Grande do Sul",
+                "value": 6.8
+            },
+            {
+                "label": "Bahia",
+                "value": 6.4
+            },
+            {
+                "label": "Rio de Janeiro",
+                "value": 5.3
+            },
+            {
+                "label": "Paraná",
+                "value": 4.3
+            },
+            {
+                "label": "Ceará",
+                "value": 2.85
+            },
+            {
+                "label": "Pernambuco",
+                "value": 2.85
+            },
+            {
+                "label": "Espírito Santo",
+                "value": 2.1
+            },
+            {
+                "label": "Goiás",
+                "value": 1.8
+            },
+            {
+                "label": "Mato Grosso do Sul",
+                "value": 1.4
+            },
+            {
+                "label": "Outros",
+                "value": 3.6
+            }
+        ]
+    },
+    {
+        "title": "Residência no Exterior",
+        "description": "Dos brasileiros que estão morando no exterior, a grande maioria está na Europa, destaque para a Alemanha onde estão mais de 28% das pessoas que moram no exterior.",
+        "data": [
+            {
+                "label": "Europa",
+                "value": 85.7
+            },
+            {
+                "label": "America do norte",
+                "value": 14.3
+            }
+        ]
+    },
+    {
+        "title": "Qual das seguintes opções descreve o seu cenário empregatício atualmente?",
+        "description": "O regime CLT tem sobressaído sobre as outras formas de contratação. O regime PJ ou similar foi considerado os contratos com empresas no exterior, cooperativas, etc. tendo em vista que são contratos genéricos e, em muitos casos, não estão resguardados pela lei trabalhista brasileira.",
+        "data": [
+            {
+                "label": "Regime CLT",
+                "value": 77.7
+            },
+            {
+                "label": "Regime PJ ou similar",
+                "value": 19.6
+            },
+            {
+                "label": "Estagiário",
+                "value": 1.7
+            },
+            {
+                "label": "Dono e/ou sócio",
+                "value": 1
+            }
+        ]
+    }
+]

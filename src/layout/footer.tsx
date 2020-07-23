@@ -16,8 +16,8 @@ const Footer: FC = () => {
   return (
     <footer className={classes.footer}>
       <Container maxWidth="md">
-        <Typography variant="body1" color="textSecondary">
-          © {new Date().getFullYear()}, Built with
+        <Typography variant="body1" color="textSecondary" align="center">
+          Android Dev BR © {new Date().getFullYear()}, Built with
           {` `}
           <Link href="https://www.gatsbyjs.org" color="inherit">
             Gatsby

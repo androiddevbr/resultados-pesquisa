@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import { makeStyles } from '@material-ui/styles'
-import { Typography, Container, Theme, Grid } from '@material-ui/core'
+import { Typography, Container, Theme, Grid, Tooltip } from '@material-ui/core'
 
 const useStyles = makeStyles((theme: Theme) => ({
   heroContent: {
@@ -24,14 +24,16 @@ const Hero: FC<HeroProps> = ({ title, description = '', icon, children }) => {
           container
           direction="row"
           alignItems="center"
-          justify="space-evenly"
+          justify="space-between"
+          spacing={4}
           style={{ flexWrap: 'nowrap' }}>
           <Grid
             item
+            container
             direction="column">
             <Typography
               component="h2"
-              variant="h3"
+              variant="h2"
               align="center"
               color="textPrimary"
               gutterBottom
@@ -43,10 +45,9 @@ const Hero: FC<HeroProps> = ({ title, description = '', icon, children }) => {
             </Typography>
           </Grid>
           {icon &&
-            <figure style={{ textAlign: "center" }}>
+            <Tooltip title="Ilustrações por Freepik">
               <img src={icon} width={300} />
-              <figcaption>Ilustração por <a href="https://www.blackillustrations.com/">Black Illustrations</a></figcaption>
-            </figure>
+            </Tooltip>
           }
         </Grid>
         {children}
