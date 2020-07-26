@@ -22,9 +22,10 @@ const useStyles = makeStyles((theme: Theme) => ({
 
 type ThemeMode = 'light' | 'dark'
 
-const Layout: FC<{ container?: boolean }> = ({
+const Layout: FC<{ container?: boolean, onChangeTab: (newValue: number) => void }> = ({
   children,
   container = false,
+  onChangeTab
 }) => {
   const classes = useStyles()
   const { title } = useSiteMetadata()
@@ -38,7 +39,7 @@ const Layout: FC<{ container?: boolean }> = ({
     <ThemeProvider theme={themes[theme as ThemeMode]}>
       <CssBaseline />
       <div className={classes.root}>
-        <Header siteTitle={title} onToggleTheme={toggleTheme} theme={theme} />
+        <Header onChangeTab={onChangeTab} siteTitle={title} onToggleTheme={toggleTheme} theme={theme} />
         {container ? (
           <Container component="main" maxWidth="md" className={classes.main}>
             {children}

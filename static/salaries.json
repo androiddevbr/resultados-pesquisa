@@ -1,0 +1,212 @@
+{
+    "max": 9725,
+    "avg": 7554.76,
+    "content": [
+        {
+            "title": "Por regime de trabalho",
+            "data": [
+                {
+                    "label": "PJ",
+                    "value": 9344.44
+                },
+                {
+                    "label": "Dono/Sócio",
+                    "value": 8150
+                },
+                {
+                    "label": "CLT",
+                    "value": 7367.99
+                },
+                {
+                    "label": "Estagiário/Trainee",
+                    "value": 1633.33
+                }
+            ]
+        },
+        {
+            "title": "Por faixa etária",
+            "data": [
+                {
+                    "label": "18-20 Anos",
+                    "value": 2959.40
+                },
+                {
+                    "label": "21-29 Anos",
+                    "value": 6898.61
+                },
+                {
+                    "label": "30-39 Anos",
+                    "value": 9233.25
+                },
+                {
+                    "label": "40-49 Anos",
+                    "value": 9725
+                }
+            ]
+        },
+        {
+            "title": "Por estado de residência",
+            "data": [
+                {
+                    "label": "São Paulo",
+                    "value": 9176.63
+                },
+                {
+                    "label": "Rio Grande do Sul",
+                    "value": 9126.27
+                },
+                {
+                    "label": "Rio de Janeiro",
+                    "value": 7678.71
+                },
+                {
+                    "label": "Santa Catarina",
+                    "value": 7568.94
+                },
+                {
+                    "label": "Sergipe",
+                    "value": 7166.67
+                },
+                {
+                    "label": "Pernambuco",
+                    "value": 6550
+                },
+                {
+                    "label": "Minas Gerais",
+                    "value": 6162.67
+                },
+                {
+                    "label": "Espírito Santo",
+                    "value": 6073.67
+                },
+                {
+                    "label": "Paraná",
+                    "value": 6054.55
+                },
+                {
+                    "label": "Bahia",
+                    "value": 4483.92
+                },
+                {
+                    "label": "Ceará",
+                    "value": 4260
+                },
+                {
+                    "label": "Goiás",
+                    "value": 5067
+                },
+                {
+                    "label": "Outros",
+                    "value": 6912.5
+                }
+            ]
+        },
+        {
+            "title": "Por estado da empresa",
+            "data": [
+                {
+                    "label": "São Paulo",
+                    "value": 8843.24
+                },
+                {
+                    "label": "Rio Grande do Sul",
+                    "value": 8206.85
+                },
+                {
+                    "label": "Rio de Janeiro",
+                    "value": 7775.31
+                },
+                {
+                    "label": "Santa Catarina",
+                    "value": 7222.28
+                },
+                {
+                    "label": "Paraná",
+                    "value": 6627.27
+                },
+                {
+                    "label": "Pernambuco",
+                    "value": 6550
+                },
+                {
+                    "label": "Minas Gerais",
+                    "value": 6296.43
+                },
+                {
+                    "label": "Espírito Santo",
+                    "value": 6073.67
+                },
+                {
+                    "label": "Ceará",
+                    "value": 4600
+                },
+                {
+                    "label": "Goiás",
+                    "value": 5583.75
+                },
+                {
+                    "label": "Bahia",
+                    "value": 3265.67
+                },
+                {
+                    "label": "Sergipe",
+                    "value": 3000
+                },
+                {
+                    "label": "Outros",
+                    "value": 5216.66
+                }
+            ]
+        },
+        {
+            "title": "Por escolaridade",
+            "data": [
+                {
+                    "label": "Ensino médio completo",
+                    "value": 5150
+                },
+                {
+                    "label": "Ensino superior incompleto",
+                    "value": 6735.56
+                },
+                {
+                    "label": "Ensino superior completo",
+                    "value": 7487.62
+                },
+                {
+                    "label": "Pós-graduação",
+                    "value": 8854.95
+                },
+                {
+                    "label": "Mestrado",
+                    "value": 9100
+                }
+            ]
+        },
+        {
+            "title": "Por satisfação",
+            "data": [
+                {
+                    "label": "Muito satisfeito",
+                    "value": 8419.97
+                },
+                {
+                    "label": "Pouco satisfeito",
+                    "value": 7129.78
+                },
+                {
+                    "label": "Indiferente",
+                    "value": 7988.09
+                },
+                {
+                    "label": "Pouco insatisfeito",
+                    "value": 5900
+                },
+                {
+                    "label": "Muito insatisfeito",
+                    "value": 7928.39
+                }
+            ]
+        }
+    ]
+}

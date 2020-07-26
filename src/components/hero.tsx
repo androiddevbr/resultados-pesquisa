@@ -4,18 +4,24 @@ import { Typography, Container, Theme, Grid, Tooltip } from '@material-ui/core'
 
 const useStyles = makeStyles((theme: Theme) => ({
   heroContent: {
-    backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(8, 0, 6),
   },
+  container: {
+    flexWrap: 'nowrap',
+    [theme.breakpoints.down('sm')]: {
+      flexWrap: 'wrap'
+    }
+  }
 }))
 
 export interface HeroProps {
   title: string
   description?: string,
-  icon?: any
+  icon?: any,
+  featured?: boolean
 }
 
-const Hero: FC<HeroProps> = ({ title, description = '', icon, children }) => {
+const Hero: FC<HeroProps> = ({ title, description = '', icon, children, featured = false }) => {
   const classes = useStyles()
   return (
     <div className={classes.heroContent}>
@@ -26,14 +32,14 @@ const Hero: FC<HeroProps> = ({ title, description = '', icon, children }) => {
           alignItems="center"
           justify="space-between"
           spacing={4}
-          style={{ flexWrap: 'nowrap' }}>
+          className={classes.container}>
           <Grid
             item
             container
             direction="column">
             <Typography
-              component="h2"
-              variant="h2"
+              component={featured ? "h2" : "h5"}
+              variant={featured ? "h2" : "h5"}
               align="center"
               color="textPrimary"
               gutterBottom
@@ -51,8 +57,8 @@ const Hero: FC<HeroProps> = ({ title, description = '', icon, children }) => {
           }
         </Grid>
         {children}
-      </Container>
-    </div>
+      </Container >
+    </div >
   )
 }
 

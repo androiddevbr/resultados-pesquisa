@@ -1,179 +1,672 @@
 [
     {
-        "title": "Com qual gênero você se identifica?",
-        "description": "Existe uma diferença muito grande entre pessoas que se identificam do gênero masculino e feminino. Poderia ser um reflexo do mercado de tecnologia, que é majoritariamente masculino?",
-        "data": [
+        "label": "Principais conclusões",
+        "hero": {
+            "title": "Mercado brasileiro de desenvolvimento Android",
+            "text": "Este relatório apresenta os resultados da pesquisa feita pelo Android Dev BR para mapear as pessoas desenvolvedoras brasileiras dentro do mercado de trabalho desta área. Com 323 respostas, colhidas durante os meses de Junho e Julho de 2020, conseguimos perceber como o mercado tem atuado na área de Android e algumas tendências que estão ocorrendo."
+        },
+        "content": []
+    },
+    {
+        "label": "Dados demográficos",
+        "hero": {
+            "title": "Dados demográficos",
+            "text": "Quem faz parte da nossa comunidade?"
+        },
+        "content": [
             {
-                "label": "Masculino",
-                "value": 93.4
+                "title": "Com qual gênero você se identifica?",
+                "description": "Existe uma diferença muito grande entre pessoas que se identificam do gênero masculino e feminino. Possivelmente um reflexo do mercado de tecnologia, que é majoritariamente masculino.",
+                "data": [
+                    {
+                        "label": "Masculino",
+                        "value": 93.4
+                    },
+                    {
+                        "label": "Feminino",
+                        "value": 6.6
+                    }
+                ]
             },
             {
-                "label": "Feminino",
-                "value": 6.6
+                "title": "Qual o seu grau de escolaridade?",
+                "description": "Mais de 70% das pessoas reponderam ter pelo menos ensino superior incompleto, mostrando uma certa \"elitização\" da área.",
+                "data": [
+                    {
+                        "label": "Ensino superior completo",
+                        "value": 54.5
+                    },
+                    {
+                        "label": "Ensino superior incompleto",
+                        "value": 20.9
+                    },
+                    {
+                        "label": "Pós-graduação",
+                        "value": 18.9
+                    },
+                    {
+                        "label": "Mestrado",
+                        "value": 4.7
+                    },
+                    {
+                        "label": "Ensino médio completo",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "title": "Em qual faixa etária se encontra?",
+                "description": "É um mercado muito jovem com a maioria das pessoas abaixo de 30 anos, e mais de 95% tem entre 21 e 50 anos.",
+                "data": [
+                    {
+                        "label": "21 a 29 anos",
+                        "value": 62.8
+                    },
+                    {
+                        "label": "30 a 39 anos",
+                        "value": 33.6
+                    },
+                    {
+                        "label": "40 a 49 anos",
+                        "value": 2
+                    },
+                    {
+                        "label": "18 a 20 anos",
+                        "value": 1.7
+                    }
+                ]
+            },
+            {
+                "title": "Você se identifica em algum dos grupos abaixo?",
+                "description": "Como um reflexo do mercado de tecnologia em geral, que ainda tem uma falta de diversidade, a nossa comunidade mantém esse padrão. Fica o questionamento do que podemos fazer (como indivíduos, empresas e comunidade) para melhorar este índice.",
+                "data": [
+                    {
+                        "label": "Negros",
+                        "value": 14
+                    },
+                    {
+                        "label": "LGBTQI+",
+                        "value": 5.6
+                    },
+                    {
+                        "label": "Indígena",
+                        "value": 1.3
+                    },
+                    {
+                        "label": "PCD",
+                        "value": 0.7
+                    }
+                ]
+            },
+            {
+                "title": "Residência no Brasil",
+                "description": "Uma tendência forte de residentes do Sul e Sudeste, reflexo do número de empresas e oportunidades de tecnologia presentes nestas regiões.",
+                "data": [
+                    {
+                        "label": "São Paulo",
+                        "value": 39.6
+                    },
+                    {
+                        "label": "Minas Gerais",
+                        "value": 13.5
+                    },
+                    {
+                        "label": "Santa Catarina",
+                        "value": 9.3
+                    },
+                    {
+                        "label": "Rio Grande do Sul",
+                        "value": 6.8
+                    },
+                    {
+                        "label": "Bahia",
+                        "value": 6.4
+                    },
+                    {
+                        "label": "Rio de Janeiro",
+                        "value": 5.3
+                    },
+                    {
+                        "label": "Paraná",
+                        "value": 4.3
+                    },
+                    {
+                        "label": "Ceará",
+                        "value": 2.85
+                    },
+                    {
+                        "label": "Pernambuco",
+                        "value": 2.85
+                    },
+                    {
+                        "label": "Espírito Santo",
+                        "value": 2.1
+                    },
+                    {
+                        "label": "Goiás",
+                        "value": 1.8
+                    },
+                    {
+                        "label": "Mato Grosso do Sul",
+                        "value": 1.4
+                    },
+                    {
+                        "label": "Outros",
+                        "value": 3.6
+                    }
+                ]
+            },
+            {
+                "title": "Residência no Exterior",
+                "description": "Dos brasileiros que estão morando no exterior, a grande maioria está na Europa, destaque para a Alemanha onde estão mais de 28% das pessoas que moram no exterior.",
+                "data": [
+                    {
+                        "label": "Europa",
+                        "value": 85.7
+                    },
+                    {
+                        "label": "America do norte",
+                        "value": 14.3
+                    }
+                ]
+            },
+            {
+                "title": "Qual das seguintes opções descreve o seu cenário empregatício atualmente?",
+                "description": "O regime CLT tem sobressaído sobre as outras formas de contratação. O regime PJ ou similar foi considerado os contratos com empresas no exterior, cooperativas, etc. tendo em vista que são contratos genéricos e, em muitos casos, não estão resguardados pela lei trabalhista brasileira.",
+                "data": [
+                    {
+                        "label": "Regime CLT",
+                        "value": 77.7
+                    },
+                    {
+                        "label": "Regime PJ ou similar",
+                        "value": 19.6
+                    },
+                    {
+                        "label": "Estagiário",
+                        "value": 1.7
+                    },
+                    {
+                        "label": "Dono e/ou sócio",
+                        "value": 1
+                    }
+                ]
             }
         ]
     },
     {
-        "title": "Qual o seu grau de escolaridade?",
-        "description": "Mais de 70% das pessoas reponderam ter pelo menos ensino superior incompleto, mostrando uma certa \"elitização\" da área.",
-        "data": [
+        "label": "Contexto trabalhista",
+        "hero": {
+            "title": "Contexto Trabalhista",
+            "text": "Em quais contextos estamos inseridos?"
+        },
+        "content": [
             {
-                "label": "Ensino superior completo",
-                "value": 54.5
+                "title": "O seu trabalho é...",
+                "description": "Devido a pandemia do COVID-19 que ocorre durante o ano de 2020, 7% das pessoas indicaram que estão remotos devido ao isolamento social necessário indicado pelas autoridades de saúde, mas normalmente trabalham totalmente presenciais. Em comparação ao ano passado, percebemos uma flexibilização e maior equilíbrio entre o trabalho presencial e remoto. Podendo ser, inclusive, reflexo do isolamento.",
+                "data": [
+                    {
+                        "label": "Totalmente presencial",
+                        "value": 36.6
+                    },
+                    {
+                        "label": "Parcialmente presencial",
+                        "value": 35.9
+                    },
+                    {
+                        "label": "Totalmente remoto",
+                        "value": 27.6
+                    }
+                ]
             },
             {
-                "label": "Ensino superior incompleto",
-                "value": 20.9
+                "title": "Qual o ramo da empresa em que trabalha?",
+                "description": "O ramo de tecnologia, que engloba empresas de consultorias e fábrica de software segue com a maior parcela, seguido, novamente, do ramo financeiro (investimentos, cartões, internet banking, etc.) que percebemos um grande salto no número de contratações.",
+                "data": [
+                    {
+                        "label": "Tecnologia",
+                        "value": 52.82
+                    },
+                    {
+                        "label": "Financeiro",
+                        "value": 25.58
+                    },
+                    {
+                        "label": "Alimentação",
+                        "value": 2.32
+                    },
+                    {
+                        "label": "E-commerce",
+                        "value": 2.32
+                    },
+                    {
+                        "label": "Comunicação",
+                        "value": 1.9
+                    },
+                    {
+                        "label": "Mobilidade",
+                        "value": 1.9
+                    },
+                    {
+                        "label": "Logística",
+                        "value": 1.9
+                    },
+                    {
+                        "label": "Outros",
+                        "value": 10.96
+                    }
+                ]
             },
             {
-                "label": "Pós-graduação",
-                "value": 18.9
+                "title": "Quantas pessoas, no total trabalham na mesma empresa que você?",
+                "description": "Mais de 69% da comunidade trabalha em empresas com mais de 100 colaboradores. Conforme o esperado, a maioria das pessoas estão em grandes empresas, contudo percebemos que existe espaço no mercado de tecnologia idependente do tamanho da empresa.",
+                "data": [
+                    {
+                        "label": "Mais de 500 pessoas",
+                        "value": 43.5
+                    },
+                    {
+                        "label": "de 101 a 500 pessoas",
+                        "value": 25.9
+                    },
+                    {
+                        "label": "de 51 a 100 pessoas",
+                        "value": 10.6
+                    },
+                    {
+                        "label": "de 11 a 50 pessoas",
+                        "value": 12.6
+                    },
+                    {
+                        "label": "de 6 a 10 pessoas",
+                        "value": 4.3
+                    },
+                    {
+                        "label": "de 1 a 5 pessoas",
+                        "value": 1
+                    },
+                    {
+                        "label": "Não sabe",
+                        "value": 2
+                    }
+                ]
             },
             {
-                "label": "Mestrado",
-                "value": 4.7
-            },
-            {
-                "label": "Ensino médio completo",
-                "value": 1
+                "title": "No seu trabalho, o desenvolvimento android...",
+                "description": "Tendo em vista que a pesquisa foi enviada para pessoas dentro da comunidade de desenvolvimento android, o resultado foi conforme o esperado, mas uma parcela significativa não tem um trabalho relacionado ao desenvolvimento Android, mostrando o alcance da comunidade até em outras áreas.",
+                "data": [
+                    {
+                        "label": "Função principal",
+                        "value": 86.7
+                    },
+                    {
+                        "label": "Função secundária",
+                        "value": 8.9
+                    },
+                    {
+                        "label": "Não está relacionado",
+                        "value": 4.5
+                    }
+                ]
             }
         ]
     },
     {
-        "title": "Em qual faixa etária se encontra?",
-        "description": "É um mercado muito jovem com a maioria das pessoas abaixo de 30 anos, e mais de 95% tem entre 21 e 50 anos.",
-        "data": [
+        "label": "Desenvolvimento Android",
+        "hero": {
+            "title": "Desenvolvimento Android",
+            "text": "Como é o mercado de trabalho específico para o desenvolvimento android?"
+        },
+        "content": [
             {
-                "label": "21 a 29 anos",
-                "value": 62.8
+                "title": "Qual o nível da sua função?",
+                "description": "Percebe-se um forte equilíbrio entre funções pleno e sênior. Percebe-se inclusive uma quantidade significativa de pessoas iniciantes, contudo as maiores oportunidades ainda são para pessoas com mais experiência.",
+                "data": [
+                    {
+                        "label": "Pleno",
+                        "value": 36.3
+                    },
+                    {
+                        "label": "Sênior",
+                        "value": 35.7
+                    },
+                    {
+                        "label": "Júnior",
+                        "value": 11.7
+                    },
+                    {
+                        "label": "Líder técnico",
+                        "value": 10
+                    },
+                    {
+                        "label": "Especialista",
+                        "value": 4.3
+                    },
+                    {
+                        "label": "Estagiário/Trainee",
+                        "value": 1.7
+                    }
+                ]
             },
             {
-                "label": "30 a 39 anos",
-                "value": 33.6
+                "title": "Quantas pessoas trabalham diretamente com desenvolvimento android na sua empresa?",
+                "description": "Resultado conforme o esperado, tendo em vista que a maior parte das empresas são de grande porte e possuem muitos funcionários",
+                "data": [
+                    {
+                        "label": "Mais de 10",
+                        "value": 47.5
+                    },
+                    {
+                        "label": "de 5 a 10 pessoas",
+                        "value": 15.3
+                    },
+                    {
+                        "label": "de 3 a 5 pessoas",
+                        "value": 19.3
+                    },
+                    {
+                        "label": "de 1 a 2 pessoas",
+                        "value": 17.9
+                    }
+                ]
             },
             {
-                "label": "40 a 49 anos",
-                "value": 2
-            },
-            {
-                "label": "18 a 20 anos",
-                "value": 1.7
+                "title": "Sede da empresa",
+                "description": "A maior parte das empresas que empregam as pessoas estão situadas no Brasil, como esperado",
+                "data": [
+                    {
+                        "label": "Brasil",
+                        "value": 90
+                    },
+                    {
+                        "label": "Exterior",
+                        "value": 10
+                    }
+                ]
             }
         ]
     },
     {
-        "title": "Você se identifica em algum dos grupos abaixo?",
-        "description": "",
-        "data": [
+        "label": "Empresas no Brasil",
+        "hero": {
+            "title": "Empresas no Brasil",
+            "text": "Como está o mercado de desenvolvimento android no Brasil?"
+        },
+        "content": [
             {
-                "label": "Negros",
-                "value": 14
+                "title": "Estado da empresa",
+                "description": "Mesmo com a tedência do trabalho remoto, a localidade das empresas segue a proporção de residência de seus colaboradores.",
+                "data": [
+                    {
+                        "label": "São Paulo",
+                        "value": 46.9
+                    },
+                    {
+                        "label": "Minas Gerais",
+                        "value": 13.7
+                    },
+                    {
+                        "label": "Santa Catarina",
+                        "value": 7.7
+                    },
+                    {
+                        "label": "Rio Grande do Sul",
+                        "value": 7
+                    },
+                    {
+                        "label": "Rio de Janeiro",
+                        "value": 5.9
+                    },
+                    {
+                        "label": "Bahia",
+                        "value": 4.4
+                    },
+                    {
+                        "label": "Paraná",
+                        "value": 4.4
+                    },
+                    {
+                        "label": "Pernambuco",
+                        "value": 2.6
+                    },
+                    {
+                        "label": "Espírito Santo",
+                        "value": 1.8
+                    },
+                    {
+                        "label": "Outros",
+                        "value": 4.79
+                    }
+                ]
             },
             {
-                "label": "LGBTQI+",
-                "value": 5.6
+                "title": "A empresa está situada...",
+                "description": "Apesar do grande número de empresas em grandes centros urbanos, é significativo o número de empresas no interior dos estados, o que mostra uma maior abrangência do mercado.",
+                "data": [
+                    {
+                        "label": "Em uma região metropolitana",
+                        "value": 85.2
+                    },
+                    {
+                        "label": "No interior",
+                        "value": 14.8
+                    }
+                ]
             },
             {
-                "label": "Indígena",
-                "value": 1.3
+                "title": "Faixa salarial",
+                "description": "Provavelmente como um reflexo do bom momento da categoria, unido com a formação mais elevada da comunidade, percebe-se uma faixa salarial média elevada.",
+                "data": [
+                    {
+                        "label": "De R$ 1.001,00 a R$ 3.000,00",
+                        "value": 7
+                    },
+                    {
+                        "label": "De R$ 3.001,00 a R$ 6.000,00",
+                        "value": 28
+                    },
+                    {
+                        "label": "De R$ 6.001,00 a R$ 9.000,00",
+                        "value": 34.3
+                    },
+                    {
+                        "label": "De R$ 9.001,00 a R$ 12.000,00",
+                        "value": 19.2
+                    },
+                    {
+                        "label": "De R$ 12.001,00 a R$ 15.000,00",
+                        "value": 7.4
+                    },
+                    {
+                        "label": "Mais de R$ 15.000,00",
+                        "value": 4.1
+                    }
+                ]
             },
             {
-                "label": "PCD",
-                "value": 0.7
+                "title": "Benefícios",
+                "description": "A maioria são benefícios comuns oferecidos pela maior parte das empresas. Alguns benefícios como participação nos lucros, e auxílio academia foram citados, mas não possuíram uma porcetagem alta.",
+                "data": [
+                    {
+                        "label": "Plano de saúde",
+                        "value": 83.27
+                    },
+                    {
+                        "label": "Plano odontológico",
+                        "value": 70.18
+                    },
+                    {
+                        "label": "Vale refeição",
+                        "value": 66.54
+                    },
+                    {
+                        "label": "Vale alimentação",
+                        "value": 64
+                    },
+                    {
+                        "label": "Vale transporte",
+                        "value": 55.27
+                    },
+                    {
+                        "label": "Seguro de vida",
+                        "value": 41.81
+                    },
+                    {
+                        "label": "Home office parcial",
+                        "value": 40
+                    },
+                    {
+                        "label": "Auxílio creche",
+                        "value": 29.09
+                    },
+                    {
+                        "label": "Home office liberado",
+                        "value": 27.27
+                    },
+                    {
+                        "label": "Auxílio para estudo",
+                        "value": 26.18
+                    },
+                    {
+                        "label": "Auxílio para eventos",
+                        "value": 20
+                    },
+                    {
+                        "label": "Estacionamento",
+                        "value": 17.81
+                    },
+                    {
+                        "label": "13º (PJ)",
+                        "value": 14.9
+                    },
+                    {
+                        "label": "Férias (PJ)",
+                        "value": 14.54
+                    },
+                    {
+                        "label": "Outros",
+                        "value": 16
+                    },
+                    {
+                        "label": "Nenhum benefício",
+                        "value": 4
+                    }
+                ]
+            },
+            {
+                "title": "Satisfação com a empresa",
+                "description": "Felizmente, boa parte da comunidade está satisfeita com as empresas que estão. Pode ser inclusive reflexo de melhores salários e benefícios. Contudo, uma parcela significativa tem um certo grau de insatisfação.",
+                "data": [
+                    {
+                        "label": "Muito satisfeito",
+                        "value": 39.9
+                    },
+                    {
+                        "label": "Pouco satisfeito",
+                        "value": 31
+                    },
+                    {
+                        "label": "Indiferente",
+                        "value": 8.9
+                    },
+                    {
+                        "label": "Pouco insatisfeito",
+                        "value": 11.8
+                    },
+                    {
+                        "label": "Muito insatisfeito",
+                        "value": 8.5
+                    }
+                ]
             }
         ]
     },
     {
-        "title": "Residência no Brasil",
-        "description": "",
-        "data": [
+        "label": "Empresas no exterior",
+        "hero": {
+            "title": "Empresas no exterior",
+            "text": "Como está o mercado de desenvolvimento android no exterior?"
+        },
+        "content": [
             {
-                "label": "São Paulo",
-                "value": 39.6
+                "title": "Continente da empresa",
+                "description": "Novamente, o continente mais presente é o europeu seguido pela América do Norte",
+                "data": [
+                    {
+                        "label": "Europa",
+                        "value": 69
+                    },
+                    {
+                        "label": "América do norte",
+                        "value": 24.1
+                    },
+                    {
+                        "label": "América do sul",
+                        "value": 6.9
+                    }
+                ]
             },
             {
-                "label": "Minas Gerais",
-                "value": 13.5
+                "title": "Faixa salarial na moeda local",
+                "description": "Novamente, é possível perceber uma faixa salarial mais elevada, entretando é necessário pontuar que são diferentes países, cidades e contextos que o ganho real pode variar de acordo com o custo de vida do local de residência.",
+                "data": [
+                    {
+                        "label": "De $ 1.001,00 a $ 3.000,00",
+                        "value": 16.7
+                    },
+                    {
+                        "label": "De $ 3.001,00 a $ 6.000,00",
+                        "value": 50
+                    },
+                    {
+                        "label": "De $ 6.001,00 a $ 9.000,00",
+                        "value": 20
+                    },
+                    {
+                        "label": "De $ 9.001,00 a $ 12.000,00",
+                        "value": 3.3
+                    },
+                    {
+                        "label": "Acima de $ 12.000,00",
+                        "value": 10
+                    }
+                ]
             },
             {
-                "label": "Santa Catarina",
-                "value": 9.3
+                "title": "Realocação",
+                "description": "Das pessoas que precisaram fazer realocação, 76% recebeu auxílio para tal. Em contrapartida, boa parte das pessoas que trabalham em empresas do exterior não precisaram de realocação.",
+                "data": [
+                    {
+                        "label": "Teve auxílio",
+                        "value": 44.8
+                    },
+                    {
+                        "label": "Não teve auxílio",
+                        "value": 4
+                    },
+                    {
+                        "label": "Não teve realocação",
+                        "value": 41.4
+                    }
+                ]
             },
             {
-                "label": "Rio Grande do Sul",
-                "value": 6.8
-            },
-            {
-                "label": "Bahia",
-                "value": 6.4
-            },
-            {
-                "label": "Rio de Janeiro",
-                "value": 5.3
-            },
-            {
-                "label": "Paraná",
-                "value": 4.3
-            },
-            {
-                "label": "Ceará",
-                "value": 2.85
-            },
-            {
-                "label": "Pernambuco",
-                "value": 2.85
-            },
-            {
-                "label": "Espírito Santo",
-                "value": 2.1
-            },
-            {
-                "label": "Goiás",
-                "value": 1.8
-            },
-            {
-                "label": "Mato Grosso do Sul",
-                "value": 1.4
-            },
-            {
-                "label": "Outros",
-                "value": 3.6
-            }
-        ]
-    },
-    {
-        "title": "Residência no Exterior",
-        "description": "Dos brasileiros que estão morando no exterior, a grande maioria está na Europa, destaque para a Alemanha onde estão mais de 28% das pessoas que moram no exterior.",
-        "data": [
-            {
-                "label": "Europa",
-                "value": 85.7
-            },
-            {
-                "label": "America do norte",
-                "value": 14.3
-            }
-        ]
-    },
-    {
-        "title": "Qual das seguintes opções descreve o seu cenário empregatício atualmente?",
-        "description": "O regime CLT tem sobressaído sobre as outras formas de contratação. O regime PJ ou similar foi considerado os contratos com empresas no exterior, cooperativas, etc. tendo em vista que são contratos genéricos e, em muitos casos, não estão resguardados pela lei trabalhista brasileira.",
-        "data": [
-            {
-                "label": "Regime CLT",
-                "value": 77.7
-            },
-            {
-                "label": "Regime PJ ou similar",
-                "value": 19.6
-            },
-            {
-                "label": "Estagiário",
-                "value": 1.7
-            },
-            {
-                "label": "Dono e/ou sócio",
-                "value": 1
+                "title": "Satisfação com a empresa",
+                "description": "De forma geral, as pessoas acabam deixando o país por propostas mais atraentes, o que melhora o índice de satisfação de forma considerável. Além disso, precisamos levar em consideração a qualidade de vida em diferentes contextos e regiões.",
+                "data": [
+                    {
+                        "label": "Muito satisfeito",
+                        "value": 48.3
+                    },
+                    {
+                        "label": "Pouco satisfeito",
+                        "value": 41.4
+                    },
+                    {
+                        "label": "Muito insatisfeito",
+                        "value": 10.3
+                    }
+                ]
             }
         ]
     }

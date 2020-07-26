@@ -17,7 +17,7 @@ const Footer: FC = () => {
     <footer className={classes.footer}>
       <Container maxWidth="md">
         <Typography variant="body1" color="textSecondary" align="center">
-          Android Dev BR © {new Date().getFullYear()}, Built with
+          Android Dev BR © {new Date().getFullYear()}, Construído com
           {` `}
           <Link href="https://www.gatsbyjs.org" color="inherit">
             Gatsby
@@ -26,7 +26,7 @@ const Footer: FC = () => {
           <Link href="https://www.typescriptlang.org" color="inherit">
             Typescript
           </Link>{' '}
-          and
+          e
           {` `}
           <Link href="https://material-ui.com/" color="inherit">
             @Material-ui

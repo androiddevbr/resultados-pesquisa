@@ -2,7 +2,7 @@ import Entry from "./entry"
 
 export default class Data {
     title: string
-    description: string
+    description?: string
     data: Array<Entry>
 
     constructor(title: string, description: string, data: Array<Entry>) {

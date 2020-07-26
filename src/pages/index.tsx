@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import { Link as GatsbyLink } from 'gatsby'
-import { Grid, Button, Theme } from '@material-ui/core'
+import { Grid, Button, Theme, Box, Typography } from '@material-ui/core'
 import { makeStyles } from '@material-ui/styles'
 
 import 'fontsource-roboto';
@@ -13,6 +13,34 @@ import office from '../images/colab.svg'
 import CircularProgressWithLabel from '../components/circular-info'
 import DataSection from '../layout/data-section';
 import data from '../../static/data.json';
+import salaries from '../../static/salaries.json';
+import SalarySection from '../layout/salary-section';
+
+interface TabPanelProps {
+  children?: React.ReactNode;
+  index: any;
+  value: any;
+}
+
+function TabPanel(props: TabPanelProps) {
+  const { children, value, index, ...other } = props;
+
+  return (
+    <div
+      role="tabpanel"
+      hidden={value !== index}
+      id={`tabpanel-${index}`}
+      aria-labelledby={`tab-${index}`}
+      {...other}
+    >
+      {value === index && (
+        <Box p={3}>
+          {children}
+        </Box>
+      )}
+    </div>
+  );
+}
 
 const useStyles = makeStyles((theme: Theme) => ({
   heroButtons: {
@@ -22,34 +50,47 @@ const useStyles = makeStyles((theme: Theme) => ({
 
 const IndexPage: FC = () => {
   const classes = useStyles()
-  return (
-    <Layout>
-      <SEO title="Home" />
-      <Hero
-        title="Mercado brasileiro de desenvolvimento Android"
-        description="Este relatório apresenta os resultados da pesquisa feita pelo Android Dev BR para mapear as pessoas desenvolvedoras brasileiras dentro do mercado de trabalho desta área. Com 323 respostas, colhidas durante os meses de Junho e Julho de 2020, conseguimos perceber como o mercado tem atuado na área de Android e algumas tendências que estão ocorrendo."
-        icon={office}
-      >
-        <div className={classes.heroButtons}>
-          <Grid container spacing={2} justify="center">
-            <Grid item>
-              {data.map((entry, index) => <DataSection key={index} data={entry} />)}
+  const [value, setValue] = React.useState(0);
 
-              {/* <CircularProgressWithLabel value={30} label={'Vale Alimentação'} />
+  const handleChange = (newValue: number) => {
+    setValue(newValue);
+  };
+
+  return (
+    <Layout onChangeTab={handleChange}>
+      <SEO title="Home" />
+      <Grid container spacing={2} justify="center">
+        <Grid item>
+          {data.map((section, index) =>
+            <TabPanel key={index} value={value} index={index}>
+              <Hero
+                title={section.hero.title}
+                description={section.hero.text}
+                featured={index === 0}
+                icon={index === 0 ? office : undefined}>
+                {section.content.map((entry, index) => <DataSection key={index} data={entry} />)}
+              </Hero>
+            </TabPanel>
+          )}
+          <TabPanel value={value} index={data.length}>
+            <Hero
+              title="Salários"
+              description="Mapeamento das médias saláriais reportados em diferentes contextos"
+              featured={false}>
+              <Grid container direction="column-reverse" style={{ marginBottom: 12 }}>
+                <Typography variant="caption" paragraph align="center">Média geral</Typography>
+                <Typography component="h3" variant="h3" align="center"><b>R$ {salaries.avg.toLocaleString("pt-BR", { minimumFractionDigits: 2 })}</b></Typography>
+              </Grid>
+              <Grid container direction="column" justify="space-between" spacing={4}>
+                {salaries.content.map((salary, index) => <SalarySection key={index} max={salaries.max} info={salary} />)}
+              </Grid>
+            </Hero>
+          </TabPanel>
+          {/* <CircularProgressWithLabel value={30} label={'Vale Alimentação'} />
               <CircularProgressWithLabel value={30} label={'Vale Alimentação'} /> */}
-              {/* <Button
-                component={GatsbyLink}
-                to="/page-2/"
-                variant="contained"
-                color="primary"
-              >
-                Go to page 2
-              </Button> */}
-            </Grid>
-          </Grid>
-        </div>
-      </Hero>
-    </Layout>
+        </Grid>
+      </Grid>
+    </Layout >
   )
 }
 
