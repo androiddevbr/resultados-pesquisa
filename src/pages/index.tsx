@@ -10,11 +10,11 @@ import SEO from '../components/seo'
 import Hero from '../components/hero'
 
 import office from '../images/colab.svg'
-import CircularProgressWithLabel from '../components/circular-info'
 import DataSection from '../layout/data-section';
 import data from '../../static/data.json';
 import salaries from '../../static/salaries.json';
 import SalarySection from '../layout/salary-section';
+import ChartSection from '../layout/chart-section';
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -44,7 +44,7 @@ function TabPanel(props: TabPanelProps) {
 
 const useStyles = makeStyles((theme: Theme) => ({
   heroButtons: {
-    marginTop: theme.spacing(4),
+    marginTop: theme.spacing(4)
   },
 }))
 
@@ -68,6 +68,7 @@ const IndexPage: FC = () => {
                 description={section.hero.text}
                 featured={index === 0}
                 icon={index === 0 ? office : undefined}>
+                {section.charts?.map((entry, index) => <ChartSection key={index} data={entry} />)}
                 {section.content.map((entry, index) => <DataSection key={index} data={entry} />)}
               </Hero>
             </TabPanel>
@@ -86,8 +87,6 @@ const IndexPage: FC = () => {
               </Grid>
             </Hero>
           </TabPanel>
-          {/* <CircularProgressWithLabel value={30} label={'Vale Alimentação'} />
-              <CircularProgressWithLabel value={30} label={'Vale Alimentação'} /> */}
         </Grid>
       </Grid>
     </Layout >

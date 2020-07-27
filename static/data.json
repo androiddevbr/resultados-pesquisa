@@ -5,7 +5,180 @@
             "title": "Mercado brasileiro de desenvolvimento Android",
             "text": "Este relatório apresenta os resultados da pesquisa feita pelo Android Dev BR para mapear as pessoas desenvolvedoras brasileiras dentro do mercado de trabalho desta área. Com 323 respostas, colhidas durante os meses de Junho e Julho de 2020, conseguimos perceber como o mercado tem atuado na área de Android e algumas tendências que estão ocorrendo."
         },
-        "content": []
+        "content": [
+            {
+                "title": "Brasileiros em empresas de fora do país por senioridade",
+                "description": "Percebe-se que a maior parte dos brasileiros que estão trabalhando para empresas do exterior tem um nível de senioridade elevado.",
+                "type": "circle",
+                "data": [
+                    {
+                        "label": "Sênior",
+                        "value": 64.29
+                    },
+                    {
+                        "label": "Líder Técnico",
+                        "value": 21.43
+                    },
+                    {
+                        "label": "Pleno",
+                        "value": 10.71
+                    },
+                    {
+                        "label": "Estagiário/Trainee",
+                        "value": 3.57
+                    }
+                ]
+            },
+            {
+                "title": "Brasileiros em empresas de fora do país por escolaridade",
+                "description": "Percebe-se que a maior parte dos brasileiros que estão trabalhando para empresas do exterior tem ensino superior completo. Contudo, a graduação não chega a ser um impeditivo para estar nessas empresas.",
+                "type": "circle",
+                "data": [
+                    {
+                        "label": "Ensino superior completo",
+                        "value": 55.17
+                    },
+                    {
+                        "label": "Ensino superior incompleto",
+                        "value": 17.24
+                    },
+                    {
+                        "label": "Mestrado",
+                        "value": 17.24
+                    },
+                    {
+                        "label": "Pós-graduação",
+                        "value": 10.34
+                    }
+                ]
+            }
+        ],
+        "charts": [
+            {
+                "title": "Desigualdade de gênero no mercado",
+                "description": "Refletindo uma triste realidade do mercado de trabalho, as mulheres da comunidade, mesmo tendo um alto grau de escolaridade, ainda estão recebendo, em média, um salário 12,8% abaixo que os homens. R$ 6.697,86 é o salário médio reportado pelas mulheres da comunidade contra R$ 7.687,67 da média de salário declarado pelos homens.",
+                "type": "percentage",
+                "data": [
+                    {
+                        "label": "Mestrado",
+                        "male": {
+                            "label": "Masculino",
+                            "value": 20.4
+                        },
+                        "female": {
+                            "label": "Feminino",
+                            "value": 25
+                        }
+                    },
+                    {
+                        "label": "Pós Graduação",
+                        "male": {
+                            "label": "Masculino",
+                            "value": 18.6
+                        },
+                        "female": {
+                            "label": "Feminino",
+                            "value": 25
+                        }
+                    },
+                    {
+                        "label": "Ensino Superior completo",
+                        "male": {
+                            "label": "Masculino",
+                            "value": 55.7
+                        },
+                        "female": {
+                            "label": "Feminino",
+                            "value": 40
+                        }
+                    },
+                    {
+                        "label": "Ensino Superior incompleto",
+                        "male": {
+                            "label": "Masculino",
+                            "value": 4.3
+                        },
+                        "female": {
+                            "label": "Feminino",
+                            "value": 10
+                        }
+                    },
+                    {
+                        "label": "Ensino médio completo",
+                        "male": {
+                            "label": "Masculino",
+                            "value": 1.1
+                        },
+                        "female": {
+                            "label": "Feminino",
+                            "value": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Salário por regime trabalhista",
+                "description": "Conforme esperado, o regime PJ possui valores um pouco mais elevados que os do CLT, contudo é importante ressaltar que, em geral, não possui a mesma quantidade de benefícios e nem medidas protetivas conforme previsto em lei.",
+                "type": "currency",
+                "data": [
+                    {
+                        "label": "Líder Técnico",
+                        "clt": {
+                            "label": "CLT",
+                            "value": 9213.67
+                        },
+                        "pj": {
+                            "label": "PJ",
+                            "value": 12750
+                        }
+                    },
+                    {
+                        "label": "Especialista",
+                        "clt": {
+                            "label": "CLT",
+                            "value": 10467.14
+                        },
+                        "pj": {
+                            "label": "PJ",
+                            "value": 12500
+                        }
+                    },
+                    {
+                        "label": "Sênior",
+                        "clt": {
+                            "label": "CLT",
+                            "value": 9890.26
+                        },
+                        "pj": {
+                            "label": "PJ",
+                            "value": 11360
+                        }
+                    },
+                    {
+                        "label": "Pleno",
+                        "clt": {
+                            "label": "CLT",
+                            "value": 6161.26
+                        },
+                        "pj": {
+                            "label": "PJ",
+                            "value": 7075
+                        }
+                    },
+                    {
+                        "label": "Júnior",
+                        "clt": {
+                            "label": "CLT",
+                            "value": 3757.26
+                        },
+                        "pj": {
+                            "label": "PJ",
+                            "value": 4400
+                        }
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Dados demográficos",

@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme: Theme) => ({
 const CircularProgressWithLabel: FC<CircularProgressWithLabelProps> = ({ value, label }) => {
     const classes = useStyles()
     return (
-        <Box display="flex" alignItems="center" flexDirection="column">
+        <Box display="flex" alignItems="center" flexDirection="column" mb={4} ml={2} mr={2} maxWidth={100}>
             <Box position="relative" display="inline-flex" alignItems="center" mb={1}>
                 <CircularProgress variant="determinate" value={100} size={100} thickness={2} className={classes.bottom} />
                 <CircularProgress variant="static" value={value} size={100} thickness={2} />
@@ -32,7 +32,7 @@ const CircularProgressWithLabel: FC<CircularProgressWithLabelProps> = ({ value, 
                 </Box>
             </Box>
             <Box>
-                <Typography variant="body2" align="right" color="textSecondary">{label}</Typography>
+                <Typography variant="body2" align="center" color="textSecondary">{label}</Typography>
             </Box>
         </Box>
 

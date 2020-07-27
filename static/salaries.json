@@ -1,5 +1,5 @@
 {
-    "max": 9725,
+    "max": 10721.25,
     "avg": 7554.76,
     "content": [
         {
@@ -16,6 +16,35 @@
                 {
                     "label": "CLT",
                     "value": 7367.99
+                },
+                {
+                    "label": "Estagiário",
+                    "value": 1633.33
+                }
+            ]
+        },
+        {
+            "title": "Por cargo",
+            "data": [
+                {
+                    "label": "Especialista",
+                    "value": 10721.25
+                },
+                {
+                    "label": "Sênior",
+                    "value": 10209.77
+                },
+                {
+                    "label": "Líder Técnico",
+                    "value": 9975.25
+                },
+                {
+                    "label": "Pleno",
+                    "value": 6286.88
+                },
+                {
+                    "label": "Júnior",
+                    "value": 3840.19
                 },
                 {
                     "label": "Estagiário/Trainee",

@@ -1,6 +1,6 @@
 import { Link as GatsbyLink } from 'gatsby'
 import React, { FC } from 'react'
-import { AppBar, Toolbar, Button, Avatar, ButtonBase, Tabs, Tab } from '@material-ui/core'
+import { AppBar, Toolbar, Button, Avatar, ButtonBase, Tabs, Tab, Modal } from '@material-ui/core'
 import { makeStyles, useTheme } from '@material-ui/styles'
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import logo from './../images/logo.png'
@@ -42,6 +42,16 @@ const Header: FC<HeaderProps> = ({ siteTitle = '', onToggleTheme, onChangeTab })
   const matches = useMediaQuery(theme.breakpoints.down('sm'));
   const [value, setValue] = React.useState(0);
 
+  const [open, setOpen] = React.useState(false);
+
+  const handleOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
   const handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
     setValue(newValue);
     onChangeTab(newValue);
@@ -58,14 +68,30 @@ const Header: FC<HeaderProps> = ({ siteTitle = '', onToggleTheme, onChangeTab })
         >
           <Avatar alt="Android Dev BR" src={logo} />
         </ButtonBase>
-        <Button color="inherit" onClick={onToggleTheme}>
-          Toggle Theme
+        <div>
+          <Button color="primary" disabled >
+            Dados brutos (em breve)
         </Button>
+          <Button color="inherit" onClick={handleOpen}>
+            Metodologia
+        </Button>
+          <Button color="inherit" onClick={onToggleTheme}>
+            Toggle Theme
+        </Button>
+        </div>
+
       </Toolbar>
       <Tabs orientation={matches ? 'vertical' : 'horizontal'} indicatorColor="primary" variant="scrollable" className={classes.tabs} value={value} onChange={handleChange} aria-label="simple tabs example">
         {data.map((section, index) => <Tab key={index} label={section.label} {...a11yProps(index)} />)}
         <Tab label={'Salários'} {...a11yProps(data.length)} />
       </Tabs>
+      <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="simple-modal-title"
+        aria-describedby="simple-modal-description">
+        <div style={{ width: 400, height: 100, margin: 'auto', backgroundColor: `#fff`, padding: 4 }}>TODO</div>
+      </Modal>
     </AppBar>
   )
 }
