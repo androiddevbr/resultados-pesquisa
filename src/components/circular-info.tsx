@@ -4,7 +4,7 @@ import { Box, Typography, CircularProgress, makeStyles, Theme } from '@material-
 const useStyles = makeStyles((theme: Theme) => ({
     bottom: {
         color: theme.palette.primary.light,
-        opacity: 0.5,
+        opacity: 0.2,
         position: 'absolute'
     },
 }))
