@@ -57,7 +57,6 @@ const ChartSection: FC<ChartProps> = ({ data }) => {
                                 <Grid container item style={{ height: '100%' }} alignItems="flex-end" wrap="nowrap" justify="center">
                                     {Object.keys(entry).map((key, index) => {
                                         const value = entry[key] && entry[key].value ? data.type === "percentage" ? Math.round(entry[key].value) : (Math.ceil((entry[key].value / 15000) * 100)) - 25 : 0
-                                        console.log(data.type, value)
                                         return (key !== "label" &&
                                             <Grid key={index} container style={{ height: '100%', minHeight: '120px', width: '30px' }} direction="column" wrap="nowrap" justify={"flex-end"}>
                                                 <Typography variant="overline" align="center" style={{ marginBottom: `${data.type === "currency" ? 150 + value : 0}%`, transform: `rotate(${data.type === "currency" ? 90 : 0}deg)` }}>{data.type === "percentage" ? value > 0 && `${value}%` : formatter.format(entry[key].value)}</Typography>

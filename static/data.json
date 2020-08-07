@@ -51,6 +51,60 @@
                         "value": 10.34
                     }
                 ]
+            },
+            {
+                "title": "A comunidade Android Dev BR contribui para a evolução do meu trabalho.",
+                "description": "Fica evidente que a comunidade Android Dev BR tem um impacto positivo para diversas pessoas que fazem parte dela.",
+                "type": "circle",
+                "data": [
+                    {
+                        "label": "Concordo totalmente",
+                        "value": 49.5
+                    },
+                    {
+                        "label": "Concordo parcialmente",
+                        "value": 35.5
+                    },
+                    {
+                        "label": "Não concordo nem discordo",
+                        "value": 12.8
+                    },
+                    {
+                        "label": "Discordo parcialmente",
+                        "value": 1.5
+                    },
+                    {
+                        "label": "Discordo totalmente",
+                        "value": 0.7
+                    }
+                ]
+            },
+            {
+                "title": "A comunidade Android Dev BR é inclusiva e propicia a diversidade e respeito às diferenças.                ",
+                "description": "Fica evidente que a comunidade Android Dev BR tem um impacto positivo para diversas pessoas que fazem parte dela.",
+                "type": "circle",
+                "data": [
+                    {
+                        "label": "Concordo totalmente",
+                        "value": 65.9
+                    },
+                    {
+                        "label": "Concordo parcialmente",
+                        "value": 13.6
+                    },
+                    {
+                        "label": "Não concordo nem discordo",
+                        "value": 18.7
+                    },
+                    {
+                        "label": "Discordo parcialmente",
+                        "value": 1.1
+                    },
+                    {
+                        "label": "Discordo totalmente",
+                        "value": 0.7
+                    }
+                ]
             }
         ],
         "charts": [

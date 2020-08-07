@@ -34,7 +34,7 @@ const DataSection: FC<DataProps> = ({ data }) => {
 
     return (
         <Grid container spacing={6} className={classes.container}>
-            <Typography component="h5" variant="h5" align="center" color="textPrimary">
+            <Typography component="h5" variant="h5" align="left" color="textPrimary" style={{ maxWidth: 800 }}>
                 {data.title}
             </Typography>
             <Grid item container className={classes.data} justify="center" direction={isCircle ? 'column-reverse' : 'row'} spacing={6}>
