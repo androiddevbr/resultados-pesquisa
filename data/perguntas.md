@@ -15,6 +15,7 @@ Primeiro precisamos entender melhor quem faz parte da nossa comunidade
 |              Pergunta               |     Tipo      | Alias  |
 | :---------------------------------: | :-----------: | :----: |
 | Com qual gênero você se identifica? | Escolha única | GENDER |
+
 **Opções de resposta:**
 - [ ] Feminino (F)
 - [ ] Masculino (M)
@@ -24,6 +25,7 @@ Primeiro precisamos entender melhor quem faz parte da nossa comunidade
 |             Pergunta             |     Tipo      | Alias  |
 | :------------------------------: | :-----------: | :----: |
 | Qual o seu grau de escolaridade? | Escolha única | DEGREE |
+
 **Opções de resposta:**
 - [ ] Ensino médio incompleto
 - [ ] Ensino médio completo
@@ -38,6 +40,7 @@ Primeiro precisamos entender melhor quem faz parte da nossa comunidade
 |             Pergunta              |     Tipo      |   Alias   |
 | :-------------------------------: | :-----------: | :-------: |
 | Em qual faixa etária se encontra? | Escolha única | AGE_RANGE |
+
 **Opções de resposta:**
 - [ ] Menos de 17 anos (17)
 - [ ] 18 a 20 anos (18-20)
@@ -49,6 +52,7 @@ Primeiro precisamos entender melhor quem faz parte da nossa comunidade
 |                    Pergunta                    |       Tipo       |        Alias         |
 | :--------------------------------------------: | :--------------: | :------------------: |
 | Você se identifica em algum dos grupos abaixo? | Múltipla escolha | BLACK & LGBTQIA_PLUS |
+
 **Opções de resposta:**
 - [ ] LGBTQI+ (S/N)
 - [ ] Negros (S/N)
@@ -66,6 +70,7 @@ As informações deste campo foram normalizados conforme indicado nas [notas](no
 |                                 Pergunta                                  |     Tipo      |  Alias   |
 | :-----------------------------------------------------------------------: | :-----------: | :------: |
 | Qual das seguintes opções descreve o seu cenário empregatício atualmente? | Escolha única | CONTRACT |
+
 **Opções de resposta:**
 - [ ] Estagiário, trabalhando até 30h por semana (EST)
 - [ ] Empregado trabalhando pelo menos 40h por semana em regime CLT (CLT)
@@ -81,6 +86,7 @@ Agora queremos entender um pouco o contexto trabalhista em que se encontra atual
 |     Pergunta      |     Tipo      |   Alias    |
 | :---------------: | :-----------: | :--------: |
 | O seu trabalho é: | Escolha única | WORK_PLACE |
+
 **Opções de resposta:**
 - [ ] Totalmente presencial
 - [ ] Totalmente remoto
@@ -98,6 +104,7 @@ As informações deste campo foram normalizados conforme indicado nas [notas](no
 |                            Pergunta                            |     Tipo      |    Alias     |
 | :------------------------------------------------------------: | :-----------: | :----------: |
 | Quantas pessoas, no total trabalham na mesma empresa que você? | Escolha única | COMPANY_SIZE |
+
 **Opções de resposta:**
 - [ ] 1 a 5 (1-5)
 - [ ] 6 a 10 (6-10)
@@ -110,6 +117,7 @@ As informações deste campo foram normalizados conforme indicado nas [notas](no
 |           Pergunta            |     Tipo      |      Alias       |
 | :---------------------------: | :-----------: | :--------------: |
 | No exercício do seu trabalho: | Escolha única | ANDROID_ACTIVITY |
+
 **Opções de resposta:**
 - [ ] Tem como função principal o desenvolvimento android
 - [ ] Tem como função secundária o desenvolvimento android
@@ -122,6 +130,7 @@ Queremos entender melhor o cenário específico do desenvolvimento Android por b
 |          Pergunta           |     Tipo      |   Alias    |
 | :-------------------------: | :-----------: | :--------: |
 | Qual o nível da sua função? | Escolha única | WORK_LEVEL |
+
 **Opções de resposta:**
 - [ ] Estagiário/Trainee
 - [ ] Júnior
@@ -135,6 +144,7 @@ Queremos entender melhor o cenário específico do desenvolvimento Android por b
 |                                     Pergunta                                      |     Tipo      |   Alias    |
 | :-------------------------------------------------------------------------------: | :-----------: | :--------: |
 | Quantas pessoas trabalham diretamente com desenvolvimento android na sua empresa? | Escolha única | WORK_LEVEL |
+
 **Opções de resposta:**
 - [ ] 1 a 2 (1-2)
 - [ ] 3 a 5 (3-5)
@@ -144,6 +154,7 @@ Queremos entender melhor o cenário específico do desenvolvimento Android por b
 |           Pergunta            |     Tipo      |       Alias       |
 | :---------------------------: | :-----------: | :---------------: |
 | A empresa tem sede no Brasil? | Escolha única | COMPANY_IN_BRAZIL |
+
 **Opções de resposta:**
 - [ ] Sim (S) ➜ Sessão [empresa no Brasil](#empresa-no-brasil)
 - [ ] Não (N) ➜ Sessão [empresa no exterior](#empresa-no-exterior)
@@ -154,12 +165,14 @@ Queremos entender o contexto de quem trabalha no Brasil, dentro das políticas d
 |                    Pergunta                    |       Tipo       |     Alias     |
 | :--------------------------------------------: | :--------------: | :-----------: |
 | Em qual estado fica a empresa em que trabalha? | Caixa de seleção | COMPANY_STATE |
+
 **Opções de resposta:**
 - 26 estados do Brasil e o Distrito Federal
 
 |                Pergunta                 |     Tipo      |     Alias      |
 | :-------------------------------------: | :-----------: | :------------: |
 | A empresa em que trabalha está situada: | Escolha única | COMPANY_REGION |
+
 **Opções de resposta:**
 - [ ] Em uma região metropolitana
 - [ ] No interior
@@ -167,6 +180,7 @@ Queremos entender o contexto de quem trabalha no Brasil, dentro das políticas d
 |          Pergunta          |     Tipo      |    Alias     |
 | :------------------------: | :-----------: | :----------: |
 | Qual a sua faixa salarial? | Escolha única | SALARY_RANGE |
+
 **Opções de resposta:**
 - [ ] Até R\$ 1.000,00 (1000)
 - [ ] De R\$ 1.001,00 a R\$ 3.000,00 (1000-3000)
@@ -186,6 +200,7 @@ Esta informação não foi incluída nos dados públicos de forma a preservar a 
 |                  Pergunta                  |       Tipo       |  Alias   |
 | :----------------------------------------: | :--------------: | :------: |
 | Quais benefícios a sua empresa te oferece? | Múltipla escolha | BENEFITS |
+
 **Opções de resposta:**
 - [ ] Plano de saúde
 - [ ] Plano odontológico
@@ -207,6 +222,7 @@ Esta informação não foi incluída nos dados públicos de forma a preservar a 
 |                                          Pergunta                                           |     Tipo      | Alias |
 | :-----------------------------------------------------------------------------------------: | :-----------: | :---: |
 | Em geral, qual a sua satisfação, em relação a salário, benefícios e trabalho com a empresa? | Escolha única |   -   |
+
 **Opções de resposta:**
 - [ ] Muito insatisfeito
 - [ ] Pouco insatisfeito
@@ -224,6 +240,7 @@ Queremos entender o contexto de trabalho com desenvolvimento android de quem tra
 |               Pergunta               |     Tipo      |          Alias           |
 | :----------------------------------: | :-----------: | :----------------------: |
 | Onde fica a empresa em que trabalha? | Escolha única | ABROAD_COMPANY_CONTINENT |
+
 **Opções de resposta:**
 - [ ] África (AF)
 - [ ] América central (AC)
@@ -243,6 +260,7 @@ Este campo foi removido para preservar a privacidade das pessoas que responderam
 |       Pergunta        |     Tipo      |      Alias      |
 | :-------------------: | :-----------: | :-------------: |
 | Em qual moeda recebe? | Escolha única | ABROAD_CURRENCY |
+
 **Opções de resposta:**
 - [ ] Dólar americano (USD)
 - [ ] Euro (EUR)
@@ -252,6 +270,7 @@ Este campo foi removido para preservar a privacidade das pessoas que responderam
 |                     Pergunta                     |     Tipo      |        Alias        |
 | :----------------------------------------------: | :-----------: | :-----------------: |
 | Qual a sua faixa salarial bruta, na moeda local? | Escolha única | ABROAD_SALARY_RANGE |
+
 **Opções de resposta:**
 - [ ] Até \$ 1.000,00 (1000)
 - [ ] De \$ 1.001,00 a \$ 3.000,00 (1000-3000)
@@ -263,6 +282,7 @@ Este campo foi removido para preservar a privacidade das pessoas que responderam
 |                                          Pergunta                                           |     Tipo      |         Alias         |
 | :-----------------------------------------------------------------------------------------: | :-----------: | :-------------------: |
 | No caso de realocação, recebeu auxílio para fazer os documentos de migração e para moradia? | Escolha única | ABROAD_RELOCATION_AID |
+
 **Opções de resposta:**
 - [ ] Sim (S)
 - [ ] Não (N)
@@ -271,6 +291,7 @@ Este campo foi removido para preservar a privacidade das pessoas que responderam
 |                                          Pergunta                                           |     Tipo      | Alias |
 | :-----------------------------------------------------------------------------------------: | :-----------: | :---: |
 | Em geral, qual a sua satisfação, em relação a salário, benefícios e trabalho com a empresa? | Escolha única |   -   |
+
 **Opções de resposta:**
 - [ ] Muito insatisfeito
 - [ ] Pouco insatisfeito
@@ -290,6 +311,7 @@ Queremos entender o cenário de quem trabalha como freelancer no desenvolvimento
 |                            Pergunta                            |     Tipo      | Alias |
 | :------------------------------------------------------------: | :-----------: | :---: |
 | Em quantos projetos você trabalha com desenvolvimento android? | Escolha única |   -   |
+
 **Opções de resposta:**
 - [ ] Nenhum
 - [ ] 1 a 2
@@ -299,6 +321,7 @@ Queremos entender o cenário de quem trabalha como freelancer no desenvolvimento
 |                  Pergunta                   |     Tipo      | Alias |
 | :-----------------------------------------: | :-----------: | :---: |
 | Qual a faixa de valor por hora você recebe? | Escolha única |   -   |
+
 **Opções de resposta:**
 - [ ] Até R\$ 50,00
 - [ ] De R\$ 51,00 a R\$ 100,00
@@ -312,6 +335,7 @@ Queremos entender o cenário de quem trabalha como freelancer no desenvolvimento
 |           Pergunta           |     Tipo      | Alias |
 | :--------------------------: | :-----------: | :---: |
 | Os projetos em que trabalha: | Escolha única |   -   |
+
 **Opções de resposta:**
 - [ ] São todos brasileiros
 - [ ] Maior parte são brasileiros
@@ -322,6 +346,7 @@ Queremos entender o cenário de quem trabalha como freelancer no desenvolvimento
 |       Pergunta       |     Tipo      | Alias |
 | :------------------: | :-----------: | :---: |
 | Você presta serviço: | Escolha única |   -   |
+
 **Opções de resposta:**
 - [ ] Apenas para pessoa física
 - [ ] A maior parte para pessoa física
@@ -346,6 +371,7 @@ Queremos entender o alcance da nossa comunidade
 |                 Pergunta                  |     Tipo      | Alias |
 | :---------------------------------------: | :-----------: | :---: |
 | Você conhece a comunidade Android Dev BR? | Escolha única |   -   |
+
 **Opções de resposta:**
 - [ ] Sim ➜ Vai para [sessão de feedback](#a-comunidade-android-dev-br)
 - [ ] Não ➜ Finaliza
@@ -353,6 +379,7 @@ Queremos entender o alcance da nossa comunidade
 |           Pergunta            |     Tipo      | Alias |
 | :---------------------------: | :-----------: | :---: |
 | Você faz parte da comunidade? | Escolha única |   -   |
+
 **Opções de resposta:**
 - [ ] Sim ➜ Vai para [sessão de feedback](#a-comunidade-android-dev-br)
 - [ ] Não ➜ Finaliza
@@ -363,6 +390,7 @@ Queremos entender o conteúdo mais relevante pra você e como podemos melhorar n
 |                   Pergunta                    |       Tipo       | Alias |
 | :-------------------------------------------: | :--------------: | :---: |
 | Você utiliza qual(is) das nossas iniciativas? | Múltipla escolha |   -   |
+
 **Opções de resposta:**
 - [ ] Slack
 - [ ] Medium
@@ -378,6 +406,7 @@ Queremos entender o conteúdo mais relevante pra você e como podemos melhorar n
 |                                Pergunta                                |     Tipo      | Alias |
 | :--------------------------------------------------------------------: | :-----------: | :---: |
 | A comunidade Android Dev BR contribui para a evolução do meu trabalho. | Escolha única |   -   |
+
 **Opções de resposta:**
 - [ ] Discordo totalmente
 - [ ] Discordo parcialmente
@@ -388,6 +417,7 @@ Queremos entender o conteúdo mais relevante pra você e como podemos melhorar n
 |                                          Pergunta                                          |     Tipo      | Alias |
 | :----------------------------------------------------------------------------------------: | :-----------: | :---: |
 | A comunidade Android Dev BR é inclusiva e propicia a diversidade e respeito às diferenças. | Escolha única |   -   |
+
 **Opções de resposta:**
 - [ ] Discordo totalmente
 - [ ] Discordo parcialmente
