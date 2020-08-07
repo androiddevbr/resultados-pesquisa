@@ -102,7 +102,7 @@ const Header: FC<HeaderProps> = ({ siteTitle = '', onToggleTheme, onChangeTab })
             <Avatar alt="Android Dev BR" src={logo} />
           </ButtonBase>
           <div style={{ display: 'flex' }}>
-            <ButtonBase component='a' href="https://github.com/androiddevbr/resultados-pesquisa/data" target="_blank"  >
+            <ButtonBase component='a' href="https://github.com/androiddevbr/resultados-pesquisa/tree/master/data" target="_blank"  >
               <Button color="inherit">
                 Dados brutos
             </Button>
@@ -145,7 +145,7 @@ const Header: FC<HeaderProps> = ({ siteTitle = '', onToggleTheme, onChangeTab })
               <Typography paragraph>
                 Aproveitamos a oportunidade para também buscar feedbacks sobre a atuação e impacto da comunidade na vida e carreira profissional das pessoas participantes.
             <br /><br />
-            É possível ver mais informações sobre os resultados da pesquisa no <a className={classes.link} style={{ color: theme.palette.text.secondary }} target="_blank" href="https://github.com/androiddevbr/resultados-pesquisa/data">Github</a>
+            É possível ver mais informações sobre os resultados da pesquisa no <a className={classes.link} style={{ color: theme.palette.text.secondary }} target="_blank" href="https://github.com/androiddevbr/resultados-pesquisa/tree/master/data">Github</a>
               </Typography>
             </div>
           </div>
